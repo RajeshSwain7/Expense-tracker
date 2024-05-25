@@ -1,0 +1,72 @@
+.wallet
+{
+    background-color: rgba(155, 155, 155, 1);
+    width: 360px;
+    min-height: 130px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    margin-right:0;
+    margin-left: 0;
+}
+
+.wallet>h1
+{
+    margin-top: 0;
+    color: white;;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wallet>h1>span
+{
+    color: rgba(157, 255, 91, 1);
+    margin: 0;
+}
+
+.wallet>button
+{
+    background: linear-gradient(rgba(181, 220, 82, 1),rgba(137, 225, 72, 1));
+    color: white;
+    border: 0;
+    height: 40px;
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1080px) 
+{
+    .wallet
+    {
+       margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:540px) 
+{
+    .wallet
+    {
+        width: 60vw;
+    }
+
+    .wallet>h1
+    {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:420px) 
+{
+    .wallet>h1>span
+    {
+        display: block;
+    }
+}
